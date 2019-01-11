@@ -34,7 +34,7 @@ a:hover{
   color: #444;
 }
 header{
-  position: sticky;
+  position: -webkit-sticky; position: sticky;
   color: white;
   background: linear-gradient(rgba(46,204,64,0.85), rgba(54,176,90,0.85));
   padding-left: 1%;
