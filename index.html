@@ -1,38 +1,163 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link href = "style.css" rel = "stylesheet" type = "text/css">
-    <link href = "tab_logo.png" rel = "icon">
+<html lang = "en">
+
+ <!-- HEADER CONTENT -->
+ <head>
+    <link href = "img/tab_logo.png" rel = "icon">
     <title>Retter Toys</title>
     <meta charset="utf-8">
-  </head>
-  <body>
-    <header>
-      <div class = "container">
-        <h1 id = "logo">Retter Toys</h1>
-        <nav>
-          <ul>
-            <li><a href = "blog.html">BLOG</a></li>
-            <li><a href = "about.html">ABOUT US</a></li>
-            <li><a href = "contact.html">CONTACT US</a></li>
-          </ul>
-        </nav>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:500" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+ </head>
+
+ <!-- BODY TEXT -->
+ <body>
+
+   <!-- HEADER TEXT -->
+   <nav class="navbar navbar-expand-md navbar-light bg-white">
+    <div id = "navbar-header">
+     <a class="navbar-brand" href="#">RETTER TOYS</a>
+    </div>
+   </nav>
+
+   <!-- STICKY NAVBAR -->
+   <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="#"><img src = "img/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">TEAM</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">BLOG</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ABOUT US</a>
+        </li>
+      </ul>
+    </div>
+   </nav>
+
+  <!-- CAROUSEL SLIDER IMAGE -->
+  <div id = "slides" class = "carousel slide" data-ride = "carousel">
+   <ul class = "carousel-indicators">
+    <li data-target = "#slides" data-slide-to = "0" class = "active"></li>
+    <li data-target = "#slides" data-slide-to = "1"></li>
+    <li data-target = "#slides" data-slide-to = "2"></li>
+   </ul>
+   <div class = "carousel-inner">
+    <div class = "carousel-item active">
+     <div class="d-flex align-items-center justify-content-center">
+      <img src = "img/background.png" class = "carimg">
+      <div class = "carousel-caption mb-5">
+       <img src = "img/polly2.png">
+       <h2>MEET PIPER THE PANDA</H2>
+       <hr class = "white-hr">
+       <h7>Piper the Panda is Retter Toys' very first stuffed heating and cooling toy.
+        Polly heats up in the microwave oven and cools down in the refrigerator;
+        your own heating and cooling therapy in an adorable, stuffed toy!</h7>
       </div>
-    </header>
-    <div id = "banner"><h2 id  = "banner-text">WE ARE DEDICATED TO CHANGING THE WORLD</h2></div>
-    <article>
-     <p>	(SAMPLE CONTENT)Who is involved:
-         Discusses the benefits of globalization and its versatility. The article brings up Elon Musk’s name, using him as an example of what globalization can achieve. The article takes a look at globalization through the lens of five entrepreneurs: Lathan Fritz, Guy Weitzman, John Bates, Michael Hadley and James  G. Wetrich. The article itself is quite long so I will only focus on 3 of the five entrepreneurs mentioned, these being: John Bates the Ceo and Founder of Executive Speaking Success , Michael Hadley the Ceo and President of iCorps Technology and James G Wetrich the CEO of the Wetrich Group.
+     </div>
+    </div>
+    <div class = "carousel-item">
+     <div class="d-flex align-items-center justify-content-center">
+      <img src = "img/background2.png" class = "carimg">
+      <div class = "carousel-caption mb-4">
+       <img src = "img/travis.png">
+       <h2>MEET TRAVIS THE TIGER</H2>
+       <hr class = "white-hr">
+       <h7>Travis the Tiger is Retter Toys' second addition to its collection of stuffed animals.
+        Travis also heats up in the microwave oven and cools down in the refrigerator;
+        your own heating and cooling therapy in an adorable, stuffed toy!</h7>
+      </div>
+     </div>
+        </div>
+        <div class = "carousel-item">
+            <div class="d-flex align-items-center justify-content-center">
+                <img src = "img/background3.png" class = "carimg">
+                <div class = "carousel-caption mb-4">
+                    <img src = "img/miguel.png">
+                    <h2>MEET MIGUEL THE MONKEY</H2>
+                    <hr class = "white-hr">
+                    <h7>Miguel the Monkey is another addition to Retter Toys' collection of stuffed animals.
+                    Choose between heating in the microwave or cooling in the refrigerator;
+                    your own heating and cooling therapy in an adorable, stuffed toy!</h7>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-         What happened:
-         The writer of the article begins by speaking of the bounds of globalization mentioning the actions of Elon Musk as he attempted to save the boys trapped in Thailand. John Bates Bates gives expert advice on leadership communication on a global scale. Globalization has made English the standard language of the business world and thus has allowed him and his company to reach a much larger audience than just America and other primarily English speaking countries. Michael Hadley states that technology is at the forefront of globalization and is a sector that needs globalization. He believes that now is a better time than ever for IT inventors. He points out that globalization has driven competition between global companies to a global scale, and only the most innovative and driven companies will survive in this rapidly advancing. He also mentions the benefit of rapid technological advances as knowledge and innovations in the technological world are now reaching a global scale. James G. Wetrich who works in the medical industry. He believes that many locations in the world are in need of solution and cures to problems and diseases that exist in our world. He believes with the rapid travel of technology on a global scale the whole world would benefit from discovery of one country.
+  <!---SHOP DIRECTOR --->
+<div class = "container shop-box">
+    <h2 class = "title-txt text-center mt-5">BRING HOME THESE ANIMAL FRIENDS</h2>
+    <div class="text-center carimg mt-3">
+        <img src="img/div.png" class="img-fluid">
+    </div>
+    <p class="text-center mt-3 slight-bold spaced-text">
+        These animals can't wait for you to take them home!
+        By bringing one home, you are helping their friends and families one toy at a time.
+    </p>
+    <div class = "row text-center">
+        <div class = "col-xs-10 col-md mt-5 mb-5">
+            <h6>PIPER THE PANDA</h6>
+            <img src = "img/polly.png" class="img-fluid">
+            <br>
+            <a href = "#" class="btn btn-primary btn-md button-txt p-2"role="button">BRING PIPER HOME</a>
+        </div>
+        <div class = "col-xs-10 col-md mt-5 mb-5">
+            <h6>TRAVIS THE TIGER</h6>
+            <img src = "img/travis.png" class="img-fluid">
+            <br>
+            <a href = "#" class="btn btn-primary btn-md button-txt p-2"role="button">BRING TRAVIS HOME</a>
+        </div>
+        <div class = "col-xs-10 col-md mt-5 mb-5">
+            <h6>MIGUEL THE MONKEY</h6>
+            <img src = "img/miguel.png" class="img-fluid">
+            <br>
+            <a href = "#" class="btn btn-primary btn-md button-txt p-2"role="button">BRING MIGUEL HOME</a>
+        </div>
+    </div>
+</div>
+<!-- Charity Director and Stuff -->
+<div class="blackb">
+    <div class="container charity-box pt-5 pb-5">
+        <h2 class="title-txt text-center">GET INVOLVED</h2>
+        <div class="big-margins">
+            <div class="text-center mt-3">
+                <img src="img/div.png" class="img-fluid">
+            </div>
+            <h6 class="mt-3 text-center light-grey"><i>(Description of charity affiliation/ Toronto zoo collaboration)</i></h6>
+            <br>
+            <p class="text-center mt-3 spaced-text slight-bold">Retter Toys focuses on saving endangered animals one warm
+                cuddle at a time.</p>
+            <p class="text-center mt-3 spaced-text slight-bold">In an effort to address the rapid increase of endangered
+                animals, Retter Toys has launched a line of stuffed animals that offers heating and cooling therapy.</p>
+            <p class="text-center mt-3 spaced-text slight-bold">A part of our profits will be donated to (charity name) to
+                raise funds for endangered animals...</p>
+            <p class="text-center mt-3 spaced-text slight-bold">(More information will be needed here in terms of how the
+                funds will be used specifically; talk to charity please)</p>
+            <br>
+            <a href="#" class="text-center mt-3 spaced-text slight-bold">Learn more about Retter Toys' charity intiatives<a>
+            <p class="text-center mt-3 spaced-text slight-bold">(More information will be needed here in terms of how the
+                funds will be used specifically; talk to charity please)</p>
 
-         Where did it take place:
-         For the most part the article speaks generally about the location. The article mainly focuses on North America(as the entrepreneurs mentioned in the article operate in America), and refers to the rest of the world generally. However, the article does specifically mention that Elon Musk was able to demonstrate the extent of globalization when he attempted to save the trapped soccer players in Thailand. This shows that the benefits of globalization were able to reach from America all the way to Thailand.
-
-         When did it occur:
-         The article talks about the benefits of globalization within a very recent time frame. An example would be the article’s mention of Elon Musk making an attempt to save the boys in Thailand.
-     </p>
-    </article>
-  </body>
+        </div>
+    </div>
+</div>
+</body>
 </html>
