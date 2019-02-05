@@ -101,7 +101,8 @@ figure {
     letter-spacing: 2px;
 }
 .link-text{
-    
+    color: 
+    text-decoration: underline;
 }
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
