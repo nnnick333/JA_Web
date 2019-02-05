@@ -14,7 +14,7 @@ html{
 }
 .button-txt{
  font-family: Arial, Helvetica, sans-serif;
- font-size: 0.7em;
+ font-size: 1em;
  font-weight: 100;
 }
 .carimg{
@@ -99,6 +99,9 @@ figure {
 }
 .spaced-text{
     letter-spacing: 2px;
+}
+.light-spaced{
+    letter-spacing: 1.5px;
 }
 .link-text{
     color: #e5e5e7;
