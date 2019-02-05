@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+html{
+    margin-bottom: 100px;
+}
+.white-hr{
+  height: 2px;
+  color: #DDDDDD;
+  background-color: #DDDDDD;
+  border: none;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited{
+ background-color: #454547;
+ border: #454547;
+}
+.button-txt{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 0.7em;
+ font-weight: 30;
+}
+.carimg{
+ filter: brightness(30%);
+}
+.nav-item{
+ padding-right: 50px;
+}
+.nav-item.active{
+ text-decoration: underline;
+}
+.img-fluid{
+ height: 100%;
+}
+.navbar-brand{
+ padding-left: 35px;
+}
+#navbar-header {
+ float: left;
+ padding-top: 1%;
+ padding-bottom: 1%;
+ text-align: center;
+ width: 100%;
+ font-family: 'Merriweather', serif;
+}
+.navbar-brand{
+ font-size: 1.8em;
+ font-weight: 400;
+}
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 1s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  max-height: 800px;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.title-txt{
+ font-family: 'Noto Serif SC', serif;
+ font-size: 1.7em;
+ text-align: center;
+}
+.shop-box{
+    color: #202022;
+}
+.blackb{
+    background-color: #202022;
+}
+.charity-box{
+    color: #e5e5e7;
+}
+.light-grey{
+    color: #c8c8cb;
+}
+.big-margins{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.slight-bold{
+    font-size: 13px;
+    font-weight: 400;
+}
+.light-text{
+    font-size: 12px;
+    font-weight: 200;
+}
+.spaced-text{
+    letter-spacing: 2px;
+}
+.link-text{
+    
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
