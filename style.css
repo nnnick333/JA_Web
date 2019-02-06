@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-html{
-    margin-bottom: 100px;
+.whiteb{
+    background-color: #FFFFFF;
+}
+.middle-padding{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.whitec{
+    color: #FFFFFF;
 }
 .white-hr{
   height: 2px;
@@ -17,6 +24,15 @@ html{
  font-size: 1em;
  font-weight: 100;
 }
+.button-small-txt{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 0.8em;
+ font-weight: 100;
+}
+.button-sharp{
+    border-radius: 6px;
+}
+
 .carimg{
  filter: brightness(30%);
 }
@@ -70,14 +86,19 @@ figure {
 }
 .title-txt{
  font-family: 'Noto Serif SC', serif;
- font-size: 1.7em;
+ font-size: 1.3em;
+ font-weight: 300;
+ letter-spacing: 1.6px;
  text-align: center;
 }
 .shop-box{
     color: #202022;
 }
 .blackb{
-    background-color: #202022;
+    background-color: #0e0e0f;
+}
+.blueb{
+    background-color: #39CCCC;
 }
 .charity-box{
     color: #e5e5e7;
@@ -86,8 +107,8 @@ figure {
     color: #c8c8cb;
 }
 .big-margins{
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .slight-bold{
     font-size: 13px;
@@ -107,6 +128,11 @@ figure {
     color: #e5e5e7;
     text-decoration: underline;
 }
+.ultra-margin{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
     padding: 1rem;
