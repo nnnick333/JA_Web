@@ -145,9 +145,12 @@ figure {
     font-weight: 400;
 }
 .carw{
-    max-width: 384px;
+    max-width: 320px;
+    margin:auto;
 }
-
+.center-row{
+    margin:auto;
+}
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
     padding: 1rem;
