@@ -134,8 +134,27 @@ figure {
     letter-spacing: 1.6px;
     color: #001f3f;
 }
+.title-txt3{
+    font-family: 'Noto Serif SC', serif;
+    font-size: 1.6em;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    color: #001f3f;
+}
+.title-txt3{
+    font-family: 'Noto Serif SC', serif;
+    font-size: 1.6em;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    color: #111111;
+    text-decoration: underline;
+}
 .subtitle{
     font-size: 16px;
+    font-weight: 500;
+}
+.subtitle-lg{
+    font-size: 20px;
     font-weight: 500;
 }
 .standard-txt{
@@ -144,12 +163,24 @@ figure {
     font-size: 14px;
     font-weight: 400;
 }
+.standard-txt-lg{
+    font-family: 'Noto Serif SC', serif;
+    letter-spacing: 1.2px;
+    font-size: 16px;
+    font-weight: 400;
+}
 .carw{
     max-width: 320px;
     margin:auto;
 }
-.center-row{
-    margin:auto;
+.carousel-inner img {
+  margin: auto;
+}
+.display-4{
+    color: #111111;
+}
+.banner{
+    max-height: 300px;
 }
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
